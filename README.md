@@ -52,15 +52,16 @@ Example styles (SCSS)
 ## Configuration
 Available props on **<vue-accordion>**
 | Prop name       | Type            | Description                                                                                                           | Default Value |
-| --------------- | --------------- | --------------------------------------------------------------------------------------------------------------------- | ------------- |
+|-----------------|-----------------|-----------------------------------------------------------------------------------------------------------------------|---------------|
 | canOpenMultiple | Boolean         | Defines whether multiple items can be opened at the same time                                                         | true          |
 | defaultOpen     | [Number, Array] | Index or multiple indexes of the items that will be opened by default                                                 | -             |
 | canClose        | Boolean         | If it's set to false, clicking an opened item won't close it.                                                         | true          |
 | activeClass     | String          | CSS class that will be set on items that are opened (active).                                                         | -             |
 | animatedClass   | String          | CSS class of a wrapper div that the transition property should be applied to. (I.e. transition: all 0.5s ease-in-out) | -             |
 
+
 Available props on **<vue-accordion-item>**
 | Prop name     | Type   | Description                                                                              | Default Value |
-| ------------- | ------ | ---------------------------------------------------------------------------------------- | ------------- |
+|---------------|--------|------------------------------------------------------------------------------------------|---------------|
 | activeClass   | String | Overrides the activeClass property from <vue-accordion> for this specific accordion item | -             |
 | animatedClass | String | Overrides the animatedClass property from  for this specific accordion item              | -             |
