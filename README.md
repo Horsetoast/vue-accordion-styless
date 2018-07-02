@@ -2,17 +2,19 @@
 Highly customizable accordion component. Doesn't come with dependancies or default styles, easy to adapt to your needs.
 
 ## Demo
-https://horsetoast.github.com/vue-accordion-styless
+[Check out the demo](https://horsetoast.github.com/vue-accordion-styless)
 
 ## Install
 Install the package via npm
 `npm install vue-accordion-styless`
 Then import it in your project
-`import { VueAccordion, VueAccordionItem } from 'vue-accordion-styless'`
+```js
+import { VueAccordion, VueAccordionItem } from 'vue-accordion-styless'
+```
 
 ## Usage
 Simple example with classes for custom styles. Make sure to use slots with names **title** and **content** inside **<vue-accordion-item>**.
-```js
+```html
 <vue-accordion
     class="styled-accordion"
     animatedClass="animated-wrapper">
