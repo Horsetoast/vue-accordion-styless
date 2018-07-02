@@ -21,10 +21,9 @@ Simple example with classes for custom styles. Make sure to use slots with names
         <div slot="content" class="item-content">Because they don't C#</div>
     </vue-accordion-item>
 </vue-accordion>
-
-```scss
-Example styles (SCSS)
 ```
+Example styles (SCSS)
+```scss
 .styled-accordion {
   /* Accordion item divs */
   & > div {
