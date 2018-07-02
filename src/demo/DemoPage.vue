@@ -1,7 +1,7 @@
 <template>
   <div id="accordion-demo">
-    <h1>Highly customizable Vue accordion component</h1>
-    <p>Without dependancies</p>
+    <h1>vue-accordion-styless</h1>
+    <p>Highly customizable accordion component. Doesn't come with dependancies or default styles, easy to adapt to your needs.</p>
     <hr>
     <!-- STYLED ACCORDION WITH ACTIVE CLASS -->
     <h2>Styled accordion with active item class</h2>

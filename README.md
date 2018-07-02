@@ -12,7 +12,7 @@ Then import it in your project
 
 ## Usage
 Simple example with classes for custom styles. Make sure to use slots with names **title** and **content** inside **<vue-accordion-item>**.
-```
+```js
 <vue-accordion
     class="styled-accordion"
     animatedClass="animated-wrapper">
@@ -21,7 +21,8 @@ Simple example with classes for custom styles. Make sure to use slots with names
         <div slot="content" class="item-content">Because they don't C#</div>
     </vue-accordion-item>
 </vue-accordion>
-```
+
+```scss
 Example styles (SCSS)
 ```
 .styled-accordion {
