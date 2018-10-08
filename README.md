@@ -51,6 +51,7 @@ Example styles (SCSS)
 
 ## Configuration
 Available props on **<vue-accordion>**
+
 | Prop name       | Type            | Description                                                                                                           | Default Value |
 |-----------------|-----------------|-----------------------------------------------------------------------------------------------------------------------|---------------|
 | canOpenMultiple | Boolean         | Defines whether multiple items can be opened at the same time                                                         | true          |
